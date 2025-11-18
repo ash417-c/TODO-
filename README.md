@@ -1,2 +1,2 @@
 # Todo App
-not finished (or started really)
+not finished 
