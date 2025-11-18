@@ -6,8 +6,12 @@
 [Bb]uilds/
 [Ll]ogs/
 [Mm]emoryCaptures/
-UserSettings/
+[Uu]serSettings/
+[Aa]ssets/TextMesh Pro/
+[Aa]ssets/ExternalDependencyManager/
+[Pp]rojectSettings/
 .sysinfo
+
 
 # OS junk
 .DS_Store
@@ -32,3 +36,25 @@ Thumbs.db
 *.exe
 *.dll
 *.pdb
+*.meta
+*.asset
+*.cginc
+
+# Firebase - ignore SDK, config files, CLI cache and logs
+# Unity plugin folders and root-level Firebase folder
+Assets/Firebase/
+Assets/Plugins/Firebase/
+Plugins/Firebase/
+Firebase/
+
+# Android and iOS service config files
+google-services.json
+google-services.json.meta
+GoogleService-Info.plist
+GoogleService-Info.plist.meta
+
+# Firebase CLI and cache
+.firebaserc
+.firebase
+firebase.json
+firebase-debug.log
