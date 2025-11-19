@@ -9,6 +9,7 @@
 [Uu]serSettings/
 [Aa]ssets/TextMesh Pro/
 [Aa]ssets/ExternalDependencyManager/
+[Aa]ssets/StreamingAssets/
 [Pp]rojectSettings/
 .sysinfo
 
@@ -39,6 +40,9 @@ Thumbs.db
 *.meta
 *.asset
 *.cginc
+
+# API keys
+Assets/StreamingAssets/google-services.json
 
 # Firebase - ignore SDK, config files, CLI cache and logs
 # Unity plugin folders and root-level Firebase folder
